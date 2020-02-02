@@ -61,7 +61,7 @@
 }
 
 .bg-controls {
-  background-image: url('/assets/img/ball-color-court-1405355.png');
+  background-image: url('src/assets/img/ball-color-court-1405355.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,7 +102,7 @@
   width: 4rem;
   top: 80%;
   left: 35%;
-  background-image: url('/assets/img/path-2.svg');
+  background-image: url('src/assets/img/path-2.svg');
   background-position: center;
   background-repeat: no-repeat;
   transform: scaleX(-1);
@@ -122,7 +122,7 @@
   top: 80%;
   right: 35%;
   margin-left: 1rem;
-  background-image: url('/assets/img/path-2.svg');
+  background-image: url('src/assets/img/path-2.svg');
   background-position: center;
   background-repeat: no-repeat;
 }
