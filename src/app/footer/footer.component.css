@@ -1,0 +1,27 @@
+.footer {
+  background-color: #cbe346;
+  height: auto;
+  max-width: 100%;
+  ;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: 0px;
+  font-family: HelveticaNeue;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.14px;
+  color: #2b3049;
+}
+
+.social {
+  padding: 1rem;
+}
+
+.social img {
+  margin: .5rem;
+}

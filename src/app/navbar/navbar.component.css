@@ -1,0 +1,28 @@
+a {
+  font-family: HelveticaNeue;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+}
+
+a.active{
+    font-weight: bold;
+}
+
+.menu-tittle {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .logo-navbar {
+    display: none !important;
+  }
+
+  .menu-tittle {
+    display: block;
+  }
+}

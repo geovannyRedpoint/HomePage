@@ -1,0 +1,214 @@
+.body-container {
+  background-color: #f3f4f8;
+
+}
+
+.span-tennis-body {
+  font-family: HelveticaNeue;
+  font-size: 2.1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 1.87px;
+  text-align: right;
+  color: #cbe346;
+}
+
+.tittle-body {
+  font-family: HelveticaNeue-med;
+  font-size: 3.8rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: -0.06px;
+  color: #1e2335;
+}
+
+.subttitle-body {
+  font-family: HelveticaNeue;
+  font-size: 1.3rem;
+  font-weight: normal;
+
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: 0.51px;
+  color: #787878;
+}
+
+
+.btn-outline-body {
+  border-radius: 26.5px;
+  border: solid 1px #282e47;
+  width: 16rem;
+  height: 3rem;
+  font-family: HelveticaNeue;
+  font-size: 1rem;
+  /* 13px */
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.15;
+  letter-spacing: 1.01px;
+  color: #273048;
+}
+
+.img-body {
+  width: 100vw;
+  max-width: 100%;
+}
+
+.bg-controls {
+  background-image: url('/assets/img/ball-color-court-1405355.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 300;
+  /* padding: 3rem; */
+}
+
+.carousel-tittle {
+  font-family: HelveticaNeue;
+  font-size: 3.8rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: -0.06px;
+  color: #ffffff;
+  padding-left: 40%;
+}
+
+.carousel-subttitle {
+  font-family: HelveticaNeue;
+  font-size: 1.3rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.51px;
+  color: #ffffff;
+  padding-left: 40%;
+}
+
+
+.carousel-control-prev {
+  border: solid 1px #ffff;
+  border-radius: 50%;
+  padding: 1rem;
+  height: 4rem;
+  width: 4rem;
+  top: 80%;
+  left: 35%;
+  background-image: url('/assets/img/path-2.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scaleX(-1);
+
+}
+
+.carousel-control-prev:hover {
+  background-color: #cbe346;
+}
+
+.carousel-control-next {
+  border: solid 1px #ffff;
+  border-radius: 50%;
+  padding: 1rem;
+  height: 4rem;
+  width: 4rem;
+  top: 80%;
+  right: 35%;
+  margin-left: 1rem;
+  background-image: url('/assets/img/path-2.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-control-next:hover {
+  background-color: #cbe346;
+}
+
+
+.carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+
+.carousel-indicators .active {
+  background-color: #cbe346;
+}
+
+.carousel-indicators {
+  bottom: 20%;
+}
+
+.number {
+  position: absolute;
+  background-color: #cbe346;
+  padding: 0.5rem;
+  margin: 2rem;
+  border-radius: 100%;
+  font-family: HelveticaNeue;
+  font-size: 1.2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.76;
+  letter-spacing: 2.11px;
+  text-align: center;
+  color: #ffffff;
+  height: 50px;
+  width: 50px;
+}
+
+.raquetas-container {
+  background-color: #ffffff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.raquetas div {
+  padding: 1rem;
+}
+
+@media (max-width: 992px) {
+  .carousel-tittle {
+    padding-left: 30%;
+    font-size: 2.8rem;
+  }
+
+  .carousel-subttitle {
+    padding-left: 30%;
+    font-size: 1rem;
+  }
+
+  .carousel-control-next {
+
+    right: 35%;
+    margin-left: 1rem;
+  }
+
+  .carousel-control-prev {
+
+    left: 25%;
+    margin-left: 1rem;
+  }
+
+  .tittle-body {
+    font-size: 3rem;
+  }
+  
+}
+
+.controls {
+  padding: 3rem;
+}
+
+.text-container {
+  padding: 2rem;
+}

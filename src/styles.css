@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face{
+    font-family: 'Helveticaneue';
+    src: url('src/assets/fonts/HelveticaNeue.ttf');
+}
+
+@font-face{
+    font-family: 'Helveticaneue-med';
+    src: url('src/assets/fonts/HelveticaNeue Medium.ttf');
+}
+
+.arrow{
+    padding-left: 2rem;
+}
